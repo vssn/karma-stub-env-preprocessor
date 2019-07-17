@@ -1,0 +1,7 @@
+{
+  "name": "karma-stub-env-preprocessor",
+  "version": "0.1.0",
+  "description": "Stubbing process.env in your tests",
+  "main": "index.js",
+  "keywords": ["karma-plugin", "karma-stub", "karma-preprocessor", "stub-env"]
+}
