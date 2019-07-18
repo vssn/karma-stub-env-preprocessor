@@ -6,6 +6,13 @@ There are edge cases where dependencies rely on `process.env` to be available wi
 
 This karma preprocessor stubs `process` and `process.env` in the test environment.
 
+### Possible alternatives to this package
+
+> If you are using a bundler like webpack in your karma setup, 
+> you should rely on adding environment variables with the bundler instead.
+> E.g. webpack https://webpack.js.org/guides/environment-variables/
+> Also consider adding your variables following the setup on [dotenv](https://github.com/motdotla/dotenv) for more sophisticated needs than stubbing the `process.env` 
+
 ## Installation
 
 Add the dependency:
