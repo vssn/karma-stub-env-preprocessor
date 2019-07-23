@@ -4,7 +4,7 @@ var stubProcessEnv = function(args, config, logger, helper) {
 
   return function(content, file, done) {
     var envContent =
-      "window.process = { env:"" };\n";
+      "window.process = { env:'' };\n";
     done(envContent + "\n" + content);
   };
 };
